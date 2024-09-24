@@ -1,240 +1,119 @@
-*,
-*::after,
-*::before{
-    -webkit-box-sizing: border-box;
+*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
-
-:active,:hover,
-:focus{
-    outline: 0 ! important;
-    outline-offset: 0;
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
 }
-
-a,
-a:hover{
-    text-decoration: none;
+.navbar-brand:hover{
+    color: black;
 }
-
-a:hover{
-    color: var(--primary-color);
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
 }
+.nav-link:hover{
+    color: black;
 
-ul,
-ol{
-    margin: 0;
-    padding: 0;
 }
-
-    /* Variable Define */
-
-:root{
-    --primary-color: #a82c48;
-    --secondray-color : #43121d;
-    --third-color : #f98169;
-    --white-color : #fff;
-    --text-color : #555;
-    --text-gray : #999;
-    --black-color : #000;
-    --primary-font : 'Roboto', sans-serif;
-    --secondry-font :'Quicksand', sans-serif;
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
 }
-
-html{
-    scroll-behavior: smooth;
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
 }
-
-body{
-    font-family : var(--primary-font);
-    font-size : 100%;
-    font-weight: 400;
+.main{
+    background: url(/E-comm_Project/mainImage3.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
 }
+.main h1{
+    font-size:4rem;
+    font-weight:700;
 
-    /* Custom Scroller */
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(223,15,77);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
 
-    ::-webkit-scrollbar{
-        width: 0.625rem;
-    }
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+.img1{
+    height: 120px;
+    width: 150px;
+    background-color: white;
 
-    ::-webkit-scrollbar-track{
-        background: var(--white-color);
-    }
-
-    ::-webkit-scrollbar-thumb{
-        background: var(--primary-color);
-    }
-
-    /* Custom CSS Design */
-
-    h1{
-        font-size: 3rem;
-        font-weight: 900;
-        margin-bottom: 3rem;
-        color: var(--secondray-color);
-    }
-
-    h2{
-        font-weight: 700;
-        font-size: 2.25rem;
-        text-transform: capitalize;
-        font-family: var(--secondry-font);
-        color: var(--secondray-color);
-        line-height: 3rem;
-
-    }
-
-    h4{
-        color: var(--secondray-color);
-        font-family: var(--secondry-font);
-        text-transform: capitalize;
-        font-size: 18px;
-        font-weight: 800;
-        margin-bottom: 0.5rem;
-
-    }
-
-    h5{
-        color: var(--primary-color);
-        text-transform: capitalize;
-        font-family: var(--secondry-font);
-        font-size: 1rem;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-    }
-
-    p{
-        font-size: 1rem;
-        color: var(--text-color);
-        font-weight: 400;
-        line-height: 1.75rem;
-        letter-spacing: 1px;
-    }
-
-    .main-btn{
-        display: inline-block;
-        padding: 0.625rem 1.875rem;
-        line-height: 1.5625rem;
-        background-color: var(--primary-color);
-        border: 0.1875rem solid var(--primary-color);
-        color : var(--white-color);
-        font-size: 0.9375rem;
-        font-weight: 600;
-        text-transform: capitalize;
-        box-shadow: 0px 2px 10px -1px rgb(0,0,0/19%);
-        -webkit-transition: all .4s ease-out 0s;
-        -o-transition: all .4s ease-out 0s;
-        -moz-transition: all .4s ease-out 0s;
-        transition: all .4s ease-out 0s;
-    }
-
-    .white-btn{
-        padding: 0.625rem 1.875rem;
-        line-height: 25px;
-        background-color: var(--white-color);
-        border: 0.1875rem solid var(--white-color);
-        color: var(--text-color);
-        font-size: 0.9375rem;
-        font-weight: 600;
-        text-transform: capitalize;
-         box-shadow: 0px 2px 10px -1px rgb(0,0,0/19%);
-        -webkit-transition: all .4s ease-out 0s;
-        -o-transition: all .4s ease-out 0s;
-        -moz-transition: all .4s ease-out 0s;
-        transition: all .4s ease-out 0s;
-    }
-
-    .main-btn:hover{
-        background-color: transparent;
-        color: var(--primary-color);
-    }
-
-    .white-btn:hover{
-        background-color: transparent;
-        color: var(--primary-color);
-        border-color: var(--primary-color);
-    }
-
-    .wrapper{
-        padding-top: 8.25rem;
-        padding-bottom: 8.25rem;
-    }
-
-    .txt-content{
-        width: 70%;
-        margin: auto;
-    }
-
-    .counter-section h2,
-    .testimonial-section h2,
-    .book-food-text h2{
-        color: var(--white-color);
-    }
-
-    /* Header Design */
-    .navigation-wrap{
-        position: fixed;
-        width: 100%;
-        left: 0;
-        z-index: 1000;
-        -webkit-transition: all 0.3s ease-out;
-        transition: all 0.3s ease-out
-    
-    }
-
-    .navigation-wrap .nav-item{
-        padding: 0 0.625rem;
-        transition: all 200ms linear;
-    }
-    .navbar-toggler:focus{
-        outline: unset;
-        border: unset;
-        box-shadow: none;
-    }
-
-    .nav-link{
-        font-size: 0.9375rem;
-        font-weight: 600;
-        text-transform: capitalize;
-        color: var(--primary-color);
-        letter-spacing: 1px;
-    }
-
-    .navigation-wrap .main-btn{
-        padding: 0.3125rem 1.4375rem;
-        box-shadow: none;
-        margin-left: 0.625rem;
-    }
-
-    .navigation-wrap.scroll-on{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: var(--white-color);
-        box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
-        transition: all .15s ease-in-out 0s;
-    }
-
-     /* top-banner Design */
-    .top-banner{
-        width: 100%;
-        background-image: url("/Bootstrap_page/backgroundimage.png");
-        background-size: cover;
-        padding: 16.875rem 0 9.375rem;
-    }
-
-    /* counter Design */
-
-    .counter-section{
-        background-color: var(--primary-color);
-        padding: 2.5rem 0;
-
-
-    }
-
-    .counter-section p{
-        color: var(--white-color);
-        text-transform: uppercase;
-    }
+}
+.img2{
+    height: 120px;
+    width: 150px;
+}
+.img3{
+    height: 120px;
+    width: 150px;
+}
+.pimg1{
+    height: 120px;
+    width: 150px;
+}
+.pimg2{
+    height: 120px;
+    width: 150px;
+}
+.pimg3{
+    height: 120px;
+    width: 150px;
+}
+.pimg4{
+    height: 120px;
+    width: 150px;
+}
+.gimg2{
+    height: 250px;
+    width: 450px;
+}
+.apple{
+     background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/E-comm_Project/girsl.png) no-repeat; 
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cuursive;
+}
