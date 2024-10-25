@@ -1,0 +1,251 @@
+{
+
+    "home1":{
+    "en":"Home",
+    "ar":"بيت"
+    },
+
+    "about1":{
+    "en":"About",
+    "ar":"عن"   
+    },
+
+    "menu1":{
+    "en":"Menu",
+    "ar":"قائمة طعام"   
+    },
+
+    "product1":{
+    "en":"Product",
+    "ar":"منتج"   
+    },
+
+    "gallary1":{
+    "en":"Gallery",
+    "ar":"قائمة طعام"   
+    },
+    "contact1":{
+    "en":"Contact",
+    "ar":"اتصال"   
+    },
+
+    "blog1":{
+    "en":"Blogs",
+    "ar":"مدونات"   
+    },
+
+    "search1":{
+    "en":"Search",
+    "ar":"يبحث"   
+    },
+
+    "ha3":{
+        "en":"Start Your Day With a",
+        "ar":"ابدأ يومك مع أ"   
+    },
+
+    "hr3":{
+        "en":"Fresh Coffee",
+        "ar":"قهوة طازجة"   
+        },
+
+        "p1h":{
+        "en":"Start your day with a fresh cup of coffee, the perfect way to awaken your senses and fuel your energy.",
+        "ar":"ابدأ يومك بفنجان من القهوة الطازجة، الطريقة المثالية لإيقاظ حواسك وتغذية طاقتك."   
+        },
+
+    "btn1":{
+        "en":"Shop Now",
+        "ar":"تسوق الآن"   
+        },
+    "h3about":{
+        "en":"What Makes Our Coffee Special?",
+        "ar":"ما الذي يجعل قهوتنا مميزة؟"   
+        },
+
+    "p1about":{
+        "en":"Our coffee special is the careful selection of premium, ethically sourced beans from the finest farms around the world. Each batch is roasted to perfection, bringing out the unique flavors and aroma profiles that set us apart. Our commitment to quality ensures every cup is rich, smooth, and full-bodied, providing an exceptional coffee experience. We also prioritize sustainability, partnering with eco-conscious growers and using environmentally friendly packaging. From the first sip to the last, our coffee is crafted with passion, ensuring every brew delivers freshness, flavor, and a connection to the people and places behind it.",
+        "ar":"قهوتنا المميزة هي الاختيار الدقيق للحبوب الممتازة ذات المصادر الأخلاقية من أرقى المزارع حول العالم. يتم تحميص كل دفعة إلى حد الكمال، مما يبرز النكهات والروائح الفريدة التي تميزنا. يضمن التزامنا بالجودة أن يكون كل كوب غنيًا وسلسًا وكامل القوام، مما يوفر تجربة قهوة استثنائية. كما أننا نعطي الأولوية للاستدامة، ونقيم شراكات مع المزارعين المهتمين بالبيئة ونستخدم عبوات صديقة للبيئة. من أول رشفة إلى آخر رشفة، يتم إعداد قهوتنا بشغف، مما يضمن أن كل مشروب يقدم النضارة والنكهة والتواصل مع الأشخاص والأماكن التي تقف خلفه."   
+        },
+
+        "btnabout":{
+            "en":"Learn More.",
+            "ar":"يتعلم أكثر."
+        },
+        "menu2":{
+            "en":"Menu",
+            "ar":"قائمة طعام"
+        },
+        "coffe":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "coffe1":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "coffe2":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "coffe3":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "coffe4":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "coffe5":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "coffe6":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "coffe7":{
+            "en":"Coffee",
+            "ar":"قهوة"
+        },
+        "product5":{
+            "en":"Products",
+            "ar":"منتجات"
+        },
+        "h3prod":{
+            "en":"Arabic Coffee",
+            "ar":"قهوة عربية"
+        },
+        "h3prod1":{
+            "en":"Cappuccino Coffee",
+            "ar":"قهوة كابتشينو"
+        },
+
+        "h3prod2":{
+            "en":"Black Coffee",
+            "ar":"القهوة السوداء"
+        },
+        "h3prod3":{
+            "en":"Decaf Coffee",
+            "ar":"قهوة منزوعة الكافيين"
+        },
+        "top1":{
+            "en":"Top Categories",
+            "ar":"أهم الفئات"
+        },
+        "ab":{
+            "en":"About Us",
+            "ar":"معلومات عنا"
+        },
+        "gall":{
+            "en":"Our Gallary",
+            "ar":"معرضنا"
+        },
+
+        "conta":{
+            "en":"Contact Us",
+            "ar":"اتصل بنا"
+        },
+        "conta-p":{
+            "en":"Contact us for inquiries, reservations, or feedback. Visit our coffee shop, call us at (123) 456-7890,",
+            "ar":"اتصل بنا للاستفسارات أو الحجز أو التعليقات. قم بزيارة المقهى الخاص بنا، اتصل بنا على (123) 456-7890،"
+        },
+        "conta-p2":{
+            "en":"email at info@coffeeshop.com. Were here to serve you every day!",
+            "ar":"البريد الإلكتروني على info@coffeeshop.com. نحن هنا لخدمتك كل يوم!"
+        },
+        "send":{
+            "en":"Send Message",
+            "ar":"أرسل رسالة"
+        },
+
+        "info1":{
+            "en":"Info",
+            "ar":"معلومات"
+        },
+        "gmail1":{
+            "en":"info@coffeeshop.com.",
+            "ar":"info@coffeeshop.com."
+        },
+        "addres":{
+            "en":"Kankarbagh, Patna, Biahr",
+            "ar":"كانكارباغ، باتنا، بياهر"
+        },
+        "conta-about":{
+            "en":"Contact us for inquiries, reservations, or feedback. Visit our coffee shop",
+            "ar":"اتصل بنا للاستفسار أو الحجز أو التعليق. قم بزيارة المقهى الخاص بنا"
+        },
+        "blogs-1":{
+            "en":"Latest Blogs",
+            "ar":"أحدث المدونات"
+        },
+        "p1blog":{
+            "en":"A Day in the Life of a Barista at The cafe",
+            "ar":"يوم في حياة باريستا في المقهى"
+        },
+        "h1blog":{
+            "en":"Raghav / 13 Feb 2023",
+            "ar":"يوم في حياة باريستا في المقهى"
+        },
+        "blogp1":{
+            "en":"Experience a day in the life of a barista at The Cafe, from crafting perfect lattes and greeting regulars to juggling orders and sharing the love for coffee with every cup served.",
+            "ar":"استمتع بيوم من حياة صانع القهوة في The Cafe، بدءًا من إعداد القهوة المثالية وتحية الزبائن المنتظمين وحتى التوفيق بين الطلبات ومشاركة حب القهوة مع كل كوب يتم تقديمه."
+        },
+        "h2blog":{
+            "en":"Brewing the Perfect Cup",
+            "ar":"تحضير الكأس المثالية"
+        },
+        "bblog":{
+            "en":"Read More.",
+            "ar":"اقرأ المزيد."
+        },
+        "h2blog2":{
+            "en":"Sanu / 18 June 2023",
+            "ar":"سانو/ 18 يونيو 2023"
+        },
+        "p2blog":{
+            "en":"Brewing the perfect cup of coffee requires attention to detail. From selecting quality beans to mastering the grind and brew time, every step contributes to that delightful aroma and rich flavor we all love. Discover our process today!",
+            "ar":"يتطلب تحضير فنجان القهوة المثالي الاهتمام بالتفاصيل. بدءًا من اختيار الحبوب عالية الجودة وحتى إتقان وقت الطحن والتحضير، تساهم كل خطوة في الحصول على تلك الرائحة المبهجة والنكهة الغنية التي نحبها جميعًا. اكتشف عمليتنا اليوم!"
+        },
+        "b2blog":{
+            "en":"Read More.",
+            "ar":"اقرأ المزيد."
+        },
+        "h3blog":{
+            "en":"The History and Culture of Coffee Around the World",
+            "ar":"تاريخ وثقافة القهوة حول العالم"
+        },
+        "h3blog3":{
+            "en":"Mohan / 17 March 2023",
+            "ar":"موهان/ 17 مارس 2023"
+        },
+        "p3blog":{
+            "en":"Explore the rich history and diverse culture of coffee around the world. From its oriqgins in Ethiopia to global coffee ceremonies, discover how this beloved beverage unites people and traditions.",
+            "ar":"استكشف التاريخ الغني وثقافة القهوة المتنوعة حول العالم. من أصوله في إثيوبيا إلى احتفالات القهوة العالمية، اكتشف كيف يوحد هذا المشروب المحبوب الناس والتقاليد."
+        },
+        "bblog2":{
+            "en":"Read More.",
+            "ar":"اقرأ المزيد."
+        },
+        "Designed-f":{
+            "en":"Designed By",
+            "ar":"صمم بواسطة"
+        },
+        "bai":{
+            "en":"Baibhav",
+            "ar":"بيبهاف"
+        },
+        "copy-f":{
+            "en":"Copyright",
+            "ar":"حقوق الطبع والنشر"
+        },
+        "coff":{
+            "en":"Coffee Shop",
+            "ar":"مقهى"
+        },
+        "all-f":{
+            "en":"All Rights Reserved",
+            "ar":"جميع الحقوق محفوظة"
+        }
+
+}

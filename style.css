@@ -11,6 +11,13 @@ html::-webkit-scrollbar-track{
   background: transparent;
 }
 
+/* body { 
+  direction: rtl;
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+} */
+
+
 html::-webkit-scrollbar-thumb{
   background: #b2744c;
   border-radius: 10px;
