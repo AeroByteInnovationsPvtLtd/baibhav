@@ -62,10 +62,6 @@
     margin-top: 50px;
 }
 
-.home .img img {
-    width: 100%;
-}
-
 .content h3 {
     color: white;
     font-size: 60px;
@@ -81,18 +77,29 @@
 }
 
 .changecontent::after {
-    content: ' ';
-    color: rgba(161,109,14,1);
-    animation: changetext 10s infinite linear;
+    content: "Birthday cake";
+    color: rgba(161, 109, 14, 1);
+    animation: changetext 10s infinite steps(1);
     font-weight: bold;
+    display: inline-block;
 }
 
 @keyframes changetext {
-    0% { content: "Birthday cake"; }
-    20% { content: "Chocolate cake"; }
-    50% { content: "Party cake"; }
-    60% { content: "Slice cake"; }
-    100% { content: "Cup cake"; }
+    0%, 20% {
+        content: "Birthday cake";
+    }
+    20.1%, 40% {
+        content: "Chocolate cake";
+    }
+    40.1%, 60% {
+        content: "Party cake";
+    }
+    60.1%, 80% {
+        content: "Slice cake";
+    }
+    80.1%, 100% {
+        content: "Cup cake";
+    }
 }
 
 .content p {
@@ -101,50 +108,78 @@
     text-shadow: 1px 1px 1px black;
 }
 
-#button {
-    width: 110px;
-    height: 38px;
-    background-color: #864709;
-    color: white;
+/* Media Queries */
+.d-block {
+    width: 100%;
+    max-width: 550px; /* Limit the maximum width */
 }
 
-/* Media Queries */
-@media screen and (max-width: 800px) {
+/* Medium screens (768px to 992px) */
+@media (max-width: 992px) {
+    .d-block {
+        max-width: 450px;
+    }
     .content h3 {
         font-size: 50px;
     }
-}
-
-@media screen and (max-width: 860px) {
-    .home {
-        height: 120vh;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    .home {
-        height: 100vh;
-    }
-}
-
-@media screen and (max-width: 330px) {
     .content h2 {
-        font-size: 30px;
+        font-size: 45px;
     }
-    .content h3 {
-        font-size: 30px;
+    .home {
+        height: 120vh; /* To increase height for better layout on medium screens */
     }
 }
+
+/* Small screens (up to 768px) */
+@media (max-width: 768px) {
+    .d-block {
+        max-width: 400px;
+        max-height: 300px; /* Adjusted for smaller screens */
+        margin-bottom: 30px;
+    }
+    .content h3,
+    .content h2 {
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+    .home {
+        height: auto; /* Adjusts height to fit content for smaller screens */
+    }
+}
+
+/* Extra Small screens (up to 576px) */
+@media (max-width: 576px) {
+    .d-block {
+        max-width: 300px;
+        max-height: 250px;
+        margin-bottom: 15px;
+    }
+    .content h3,
+    .content h2 {
+        font-size: 28px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .home {
+        height: auto;
+    }
+}
+
+
+
 
 /* home section end */
 /* top cards */
 /* Box Section */
 #box {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #box .card {
-    box-shadow: 0px 2px 10px rgb(96, 222, 17);
+    box-shadow: 0px 2px 10px rgba(96, 222, 17, 0.6);
     margin-top: 10px;
     transition: 0.5s ease;
     cursor: pointer;
@@ -157,9 +192,21 @@
 .bimg {
     height: 250px;
     object-fit: cover;
-    width: 100%; /* Ensure the image takes up the full width of the card */
+    width: 100%;
 }
 
+/* Adjustments for various screen sizes */
+@media (max-width: 576px) {
+    .bimg {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bimg {
+        height: 300px;
+    }
+}
 /* top cards end */
 /* banner */
 .banner {
@@ -425,6 +472,35 @@
 }
 
 /* Responsive Styles for Large Screens (992px and above) */
+/* Small Devices (480px and below) */
+@media (max-width: 480px) {
+    .kimg, .cimg {
+        height: 200px;
+        width: 180px;
+    }
+
+    .card-body {
+        height: 250px;
+    }
+}
+
+/* Medium Devices (Tablets, 768px and below) */
+@media (max-width: 768px) {
+    .kimg, .cimg {
+        height: 180px;
+        width: 220px;
+    }
+
+    .card-body {
+        height: 300px;
+    }
+
+    #btn1, #btn2, #btn3 {
+        margin-top: 20px;
+    }
+}
+
+/* Large Devices (Desktops, 992px and above) */
 @media (min-width: 992px) {
     .kimg, .cimg {
         height: 180px;
@@ -456,49 +532,15 @@
     }
 }
 
-/* Medium Devices (Tablets, 768px and below) */
-@media (max-width: 768px) {
-    .kimg {
-        height: 140px;
-        width: 220px;
-    }
-
-    .cimg {
-        height: 150px;
-        width: 220px;
-    }
-
-    .card-body {
-        height: 400px;
-    }
-}
-
-/* Small Devices (Mobile, 480px and below) */
-@media (max-width: 480px) {
-    .kimg {
-        height: 120px;
-        width: 180px;
-    }
-
-    .cimg {
-        height: 130px;
-        width: 180px;
-    }
-
-    .card-body {
-        height: 220px;
-    }
-}
-
 /* Extra Small Devices (320px and below) */
 @media (max-width: 320px) {
     .kimg {
-        height: 100px;
+        height: 120px;
         width: 150px;
     }
 
     .cimg {
-        height: 110px;
+        height: 120px;
         width: 180px;
     }
 
@@ -506,7 +548,6 @@
         height: 150px;
     }
 }
-
 
 /* product cards end */
 /* gallary */

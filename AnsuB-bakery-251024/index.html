@@ -75,106 +75,147 @@
       <!-- Home Section -->
       <div class="container-fluid home d-flex align-items-center justify-content-center flex-wrap" id="home">
         <div class="row w-100">
-        <div class="col-md-6" data-aos="zoom-out-right">
-            <div class="content"><br>
-                <h3><span data-translate="del">Delicious</span><br><span data-translate="cakef"></span>Friend's Bakers</h3>
-                <h2> <span data-translate="cat">Category</span> <span class="changecontent"></span></h2>
-                <p data-translate="p1">Friends Bakers offers a delightful selection of freshly baked goods, from cakes to pastries, crafted with quality ingredients. Perfect for celebrations or daily treats, bringing warmth and flavor to every occasion!</p>
-                <!-- <a href="#" class="btn btn-custem" id="button">Order Now</a> -->
-                <button class="btn btn-custem" id="button"><a href="https://wa.me/917013727776?" target="_blank" class="text-decoration-none">Order Now</a></button>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" id="con">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <div class="row flex-column flex-lg-row">
+                            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                                <img src="./image/cake-banner.png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                                <div data-aos="zoom-out-right">
+                                    <div class="content text-center">
+                                        <h3>Delicious<br>Friend's Bakers</h3>
+                                        <h2>Category <span class="changecontent"></span></h2>
+                                        <p>Delicious Friend's Bakers is dedicated to creating exquisite custom cakes for every <br> occasion. With a wide range of flavors and stunning designs, we ensure each cake is a delightful centerpiece for celebrations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- First slide end here -->
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <div class="row flex-column flex-lg-row">
+                            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                                <img src="./image/cake-banner1.png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                                <div data-aos="zoom-out-right">
+                                    <div class="content text-center">
+                                        <h3>Delicious<br>Friend's Bakers</h3>
+                                        <h2>Category <span class="changecontent"></span></h2>
+                                        <p>Delicious Friend's Bakers is dedicated to creating exquisite custom cakes for every <br> occasion. With a wide range of flavors and stunning designs, we ensure each cake is a delightful centerpiece for celebrations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second slide end here -->
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <div class="row flex-column flex-lg-row">
+                            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                                <img src="./image/cake-banner4.png" class="d-block" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                                <div data-aos="zoom-out-right">
+                                    <div class="content text-center">
+                                        <h3>Delicious<br>Friend's Bakers</h3>
+                                        <h2>Category <span class="changecontent"></span></h2>
+                                        <p>Delicious Friend's Bakers is dedicated to creating exquisite custom cakes for every <br> occasion. With a wide range of flavors and stunning designs, we ensure each cake is a delightful centerpiece for celebrations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third slide end here -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </div>
-        <div class="col-md-6" data-aos="zoom-out-left">
-            <div class="img">
-                <img src="./image/background.png" alt="Cake">
+            <div id="btnorder" style="text-align: center; margin-top: 40px;">
+                <button class="btn btn-warning"><a href="https://wa.me/917013727776?" target="_blank" class="text-decoration-none">Order Now</a></button>
             </div>
+            <!-- End here -->
         </div>
     </div>
-</div>
+    
+        
+
+
 
 
         <!-- home section end -->
+
 
       <!-- top cards -->
        <!-- ----------------- -->
        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-            <div class="container mt-5" id="box" data-aos="fade-up" data-aos-duration="1500">
-                <div class="row">
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/backgro.png" class="card-img-top bimg" alt="Card Image 1">
+            <!-- Carousel item 1 -->
+            <div class="carousel-item active" data-bs-interval="3000">
+                <div class="container mt-3" id="box" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="row justify-content-center">
+                        <!-- Card 1, visible on all screens -->
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card p-2">
+                                <img src="./image/backgro.png" class="card-img-top bimg" alt="Card Image 1">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/box2.jpg" class="card-img-top bimg" alt="Card Image 2">
+                        <!-- Additional cards, hidden on medium and smaller screens -->
+                        <div class="col-12 col-md-4 py-2 d-none d-lg-block">
+                            <div class="card p-2">
+                                <img src="./image/box2.jpg" class="card-img-top bimg" alt="Card Image 2">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/box3.jpg" class="card-img-top bimg" alt="Card Image 3">
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-            <div class="container mt-5" id="box" data-aos="fade-up" data-aos-duration="1500">
-                <div class="row">
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/slice.png" class="card-img-top bimg" alt="Card Image 1">
-                        </div>
-                    </div>
-                    <div class="col-md-4 py-3 ">
-                        <div class="card p-2">
-                            <img src="./image/Pastry1.png" class="card-img-top bimg" alt="Card Image 2">
-                        </div>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/pa.png" class="card-img-top bimg" alt="Card Image 3">
+                        <div class="col-12 col-md-4 py-2 d-none d-lg-block">
+                            <div class="card p-2">
+                                <img src="./image/box3.jpg" class="card-img-top bimg" alt="Card Image 3">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-            <div class="container mt-5" id="box" data-aos="fade-up" data-aos-duration="1500">
-                <div class="row">
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/fruit.png" class="card-img-top bimg" alt="Card Image 1">
+            <!-- Additional carousel items for other slides follow the same structure -->
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="container mt-3" id="box" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card p-2">
+                                <img src="./image/slice.png" class="card-img-top bimg" alt="Card Image 1">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/strawberrey.png" class="card-img-top bimg" alt="Card Image 2">
+                        <div class="col-12 col-md-4 py-2 d-none d-lg-block">
+                            <div class="card p-2">
+                                <img src="./image/Pastry1.png" class="card-img-top bimg" alt="Card Image 2">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <div class="card p-2">
-                            <img src="./image/vanilla1.png" class="card-img-top bimg" alt="Card Image 3">
+                        <div class="col-12 col-md-4 py-2 d-none d-lg-block">
+                            <div class="card p-2">
+                                <img src="./image/pa.png" class="card-img-top bimg" alt="Card Image 3">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
+            <!-- Repeat for additional carousel items -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-          <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-          <span class="visually-hidden">Next</span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
+    
         <!-- ---------------- -->
       
           <!-- top cards end -->
@@ -182,17 +223,20 @@
       <!-- banner -->
       <div class="banner d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1500">
         <div class="content text-center text-white">
-            <h3 class="fw-bold" style="color: rgba(161, 109, 14, 1);">Delicious Cake</h3>
-            <h2>UPTO 40% OFF</h2>
+            <h3 class="fw-bold">Delicious Cake</h3>
+            <h2>UP TO 40% OFF</h2>
             <p>Indulge in our delicious cakes! Enjoy up to 40% off your favorite flavors today!</p>
             <div id="btnorder">
-                <button class="btn btn-warning"><a href="https://wa.me/917013727776?" target="_blank" class="text-decoration-none">Order Now</a></button>
+                <button class="btn btn-warning">
+                    <a href="https://wa.me/917013727776?" target="_blank" class="text-decoration-none">Order Now</a>
+                </button>
             </div>
         </div>
         <div class="img flex-fill">
-            <img src="./image/banner-background.png" alt="" class="img-fluid">
+            <img src="./image/banner-background.png" alt="Delicious Cake Banner" class="img-fluid">
         </div>
     </div>
+    
     
       <!-- banner end -->
 
@@ -698,7 +742,7 @@
                                 <img src="./image/add.png" alt="" width="30px">
                             </button>
                         </div>
-                        <img src="./image/kids3.png" class="card-img-top kimg" alt="">
+                        <img src="./image/kid3.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Doll Cake</h3>
                             <div class="star">
