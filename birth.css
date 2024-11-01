@@ -52,344 +52,7 @@
     }
 }
 /* navbar end */
-/* Home Section */
-.home {
-    height: 88.5vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/background2.png);
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-    margin-top: 50px;
-}
 
-.content h3 {
-    color: white;
-    font-size: 60px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px black;
-}
-
-.content h2 {
-    font-size: 60px;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    font-weight: bold;
-}
-.up-to{
-    font-size: 60px;
-    color: rgba(161, 109, 14, 1);
-    font-weight: bold;
-    text-shadow: 1px 1px 1px black;
-}
-
-.changecontent::after {
-    content: "Birthday cake";
-    color: rgba(161, 109, 14, 1);
-    animation: changetext 10s infinite steps(1);
-    font-weight: bold;
-    display: inline-block;
-}
-
-
-@keyframes changetext {
-    0%, 20% {
-        content: "Birthday cake";
-    }
-    20.1%, 40% {
-        content: "Chocolate cake";
-    }
-    40.1%, 60% {
-        content: "Party cake";
-    }
-    60.1%, 80% {
-        content: "Slice cake";
-    }
-    80.1%, 100% {
-        content: "Cup cake";
-    }
-}
-
-.content p {
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px black;
-}
-
-/* Media Queries */
-.d-block {
-    width: 100%;
-    max-width: 550px; /* Limit the maximum width */
-}
-
-/* Medium screens (768px to 992px) */
-@media (max-width: 992px) {
-    .d-block {
-        max-width: 450px;
-    }
-    .up-to{
-        font-size: 50px;
-    }
-    .content h3 {
-        font-size: 50px;
-    }
-    .content h2 {
-        font-size: 45px;
-    }
-    .home {
-        height: 120vh; /* To increase height for better layout on medium screens */
-    }
-}
-
-/* Small screens (up to 768px) */
-@media (max-width: 768px) {
-    .d-block {
-        max-width: 400px;
-        max-height: 300px; /* Adjusted for smaller screens */
-        margin-bottom: 30px;
-    }
-    .content h3,
-    .content h2,.up-to {
-        font-size: 35px;
-    }
-    .content p {
-        font-size: 14px;
-    }
-    .home {
-        height: auto; /* Adjusts height to fit content for smaller screens */
-    }
-}
-
-/* Extra Small screens (up to 576px) */
-@media (max-width: 576px) {
-    .d-block {
-        max-width: 300px;
-        max-height: 250px;
-        margin-bottom: 15px;
-    }
-    .content h3,
-    .content h2,.up-to {
-        font-size: 28px;
-    }
-    .content p {
-        font-size: 12px;
-    }
-    .home {
-        height: auto;
-    }
-}
-/* Extra Large screens (1200px and above) */
-@media (min-width: 1200px) {
-    .home {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end; /* Aligns content to the bottom */
-        height: 100vh;
-    }
-    #con{
-        margin-top: 110px;
-    }
-    /* #home{
-        margin-top: 80px;
-    } */
-
-    .carousel-item .row {
-        align-items: flex-end; /* Ensures each slide content is positioned at the bottom */
-    }
-    
-    
-    
-    .content {
-        margin-bottom: 30px; /* Adds spacing at the bottom */
-    }
-    
-}
-
-
-
-
-
-
-/* home section end */
-/* top cards */
-/* Box Section */
-#box {
-    margin-top: 30px;
-}
-
-#box .card {
-    box-shadow: 0px 2px 10px rgba(96, 222, 17, 0.6);
-    margin-top: 10px;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-#box .card:hover {
-    transform: translateY(-10px);
-}
-
-.bimg {
-    object-fit: cover;
-    width: 100%; 
-}
-
-/* Responsive height adjustments for images */
-@media (max-width: 576px) {
-    .bimg {
-        height: 250px;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-    .bimg {
-        height: 295px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .bimg {
-        height: 250px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    .bimg {
-        height: 225px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .bimg {
-        height: 270px;
-    }
-}
-
-
-/* top cards end */
-/* banner */
-.banner {
-    width: 100%;
-    min-height: 60vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./image/banner2.png);
-    background-size: cover;
-    box-shadow: 0px 0px 10px black;
-    margin-top: 50px;
-    padding: 20px;
-}
-
-.banner .content h3 {
-    color: rgba(161, 109, 14, 1);
-    font-weight: bold;
-}
-
-.banner .content h2 {
-    font-size: 2.5rem;
-    color: rgba(161,109,14,1);
-    font-weight: bold;
-    text-shadow: 1px 1px 1px black;
-}
-
-.banner .content p {
-    color: rgba(161,109,14,1);
-}
-
-#btnorder .btn {
-    width: 150px;
-    height: 40px;
-    letter-spacing: 2px;
-    background-color: rgba(161,109,14,1);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-#btnorder .btn:hover {
-    background-color: #2e1700;
-    color: white;
-}
-
-/* Media queries for responsive font scaling */
-@media screen and (max-width: 992px) {
-    .banner {
-        min-height: 75vh;
-    }
-
-    .banner .content h2 {
-        font-size: 2rem;
-    }
-
-    .banner .content h3 {
-        font-size: 1.8rem;
-    }
-
-    .banner .content p {
-        font-size: 1rem;
-    }
-
-    .img {
-        display: none; /* Hide image for medium and small screens */
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .banner {
-        min-height: 100vh;
-    }
-
-    .banner .content h2 {
-        font-size: 1.8rem;
-    }
-
-    .banner .content h3 {
-        font-size: 1.5rem;
-    }
-
-    .banner .content p {
-        font-size: 0.9rem;
-    }
-
-    #btnorder .btn {
-        font-size: 0.9rem;
-        width: 130px;
-        height: 35px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .banner .content h2 {
-        font-size: 1.5rem;
-        color: whitesmoke;
-    }
-    .banner {
-        width: 100%;
-        min-height: 60vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./image/banner-background.png);
-        background-size: cover;
-        box-shadow: 0px 0px 10px black;
-        margin-top: 50px;
-        padding: 20px;
-    }
-    
-
-    .banner .content h3 {
-        font-size: 1.2rem;
-        color: whitesmoke;
-    }
-
-    .banner .content p {
-        font-size: 0.8rem;
-        color: whitesmoke;
-    }
-
-    #btnorder .btn {
-        font-size: 0.8rem;
-        width: 120px;
-        height: 32px;
-    }
-}
-/* banner end */
-/* product cards */
 /* Product Card Title Styling */
 #product-cards h1 {
     text-align: center;
@@ -521,8 +184,8 @@
 }
 
 .cimg {
-    height: 170px;
-    width: 253px;
+    height: 300px;
+    width: 203px;
 }
 
 .card-body {
@@ -547,30 +210,25 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-#birth-1 {
+#birth-1{
     width: 110px;
     height: 45px;
-    background-color: rgba(161, 109, 14, 1);
+    background-color: chocolate;
     border-radius: 20px;
-    border: 2px solid #4d130f;
+    border: 2px solid #4d130f ;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: 10px;
+    
 }
-
-#birth-1 a {
-    color: white;
-    text-decoration: none;
-}
-
 
 /* Responsive Styles for Large Screens (992px and above) */
 /* Small Devices (480px and below) */
 @media (max-width: 480px) {
     .kimg, .cimg {
-        height: 200px;
+        height: 320px !important;
         width: 180px;
     }
 
@@ -582,7 +240,7 @@
 /* Medium Devices (Tablets, 768px and below) */
 @media (max-width: 768px) {
     .kimg, .cimg {
-        height: 210px;
+        height: 300px !important;
         width: 220px;
     }
 
@@ -635,7 +293,7 @@
 /* Extra Small Devices (320px and below) */
 @media (max-width: 320px) {
     .kimg {
-        height: 120px;
+        height: 220px;
         width: 150px;
     }
 
@@ -656,35 +314,6 @@
 }
 
 /* product cards end */
-/* gallary */
-#gallery {
-    margin-top: 50px;
-  }
-  
-  #gallery h1 {
-    font-weight: bold;
-    color: rgba(161, 109, 14, 1);
-    text-shadow: 1px 1px 1px black;
-    border-bottom: 2px solid rgba(161, 109, 14, 1);
-    padding-bottom: 10px;
-    margin-top: 50px;
-  }
-  
-  #gallery .card {
-    box-shadow: 3px 3px 3px black;
-    cursor: pointer;
-  }
-  
-  #gallery .overlay {
-    opacity: 0;
-    transition: opacity 0.5s ease, margin-top 0.5s ease;
-  }
-  
-  #gallery .card:hover .overlay {
-    opacity: 1;
-  }
-  
-/* gallary */
 
 /* about */
 #about {
@@ -733,9 +362,9 @@
   
 /* about */
 
-/* contact */
 #contact {
     margin-top: 100px;
+    padding: 40px 15px;
 }
 
 #contact h1 {
@@ -748,7 +377,7 @@
 }
 
 #contact .form-control {
-    background-color: rgb(220, 218, 214) !important;
+    background-color: rgba(161, 109, 14, 1);
     color: white;
 }
 
@@ -771,23 +400,50 @@
     border-color: rgba(161, 109, 14, 1);
 }
 
-/* Map and contact form layout on medium and larger screens */
-@media (min-width: 768px) {
-    #contact .col-md-6 .position-relative {
-        min-height: 400px;
+/* Small screens (xs) */
+@media (max-width: 576px) {
+    #contact {
+        padding: 20px 10px;
+    }
+    #contact h1 {
+        font-size: 1.5rem;
+    }
+    #messagebtn button {
+        font-size: 0.9rem;
     }
 }
 
-/* Adjustments for extra large screens */
+/* Medium screens (md) */
+@media (min-width: 768px) {
+    #contact {
+        padding: 60px 15px;
+    }
+    #contact h1 {
+        font-size: 2rem;
+    }
+    #messagebtn button {
+        font-size: 1rem;
+    }
+}
+
+/* Large screens (lg) */
+@media (min-width: 992px) {
+    #contact h1 {
+        font-size: 2.2rem;
+    }
+    #contact .col-md-6 {
+        min-height: 450px;
+    }
+}
+
+/* Extra large screens (xl) */
 @media (min-width: 1200px) {
     #contact {
         padding: 80px 0;
     }
-
     #contact h1 {
         font-size: 2.5rem;
     }
-
     #messagebtn button {
         font-size: 1.2rem;
     }
@@ -796,7 +452,6 @@
 
   
 /* contact */
-
 /* footer */
 #footer {
     background-color: #573818;
@@ -920,6 +575,24 @@ html{
         transform: translateY(-5px);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hover effect */
 .whatsapp-button:hover {
