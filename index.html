@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cake Factory</title>
-    <link rel="shortcut icon" type="image" href="./image/logo.png">
+    <link rel="shortcut icon" type="image"  href="./image/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Oleo Script' rel='stylesheet'>
@@ -34,7 +34,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #573818;">
             <!-- Brand -->
-            <a class="navbar-brand" href="#" id="logo">
+            <a class="navbar-brand" href="index.html" id="logo">
                 <img src="./image/cake-new-logo.png" alt="Logo" width="50px"> 
                  <span id="baker-logo">FRIEND'S BAKERS</span>
                
@@ -53,8 +53,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#category">Cake Category</a>
+                    <!-- Dropdown for Cakes -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cakes
+                        </a>
+                        <ul class="dropdown-menu  menu-d"  aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item menu-i"  href="birthday.html">Birthday Cakes</a></li>
+                            <li><a class="dropdown-item menu-i" href="anniversary.html">Anniversary Cakes</a></li>
+                            <li><a class="dropdown-item menu-i" href="kids.html">Kids Cakes</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#gallery">Gallery</a>
@@ -193,17 +201,7 @@
             <div class="row mt-5">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <i><img src="./image/views.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <i><img src="./image/heart.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <i><img src="./image/add.png" alt="" width="30px"></i>
-                            </button>
-                        </div>
+                        
                         <img src="./image/backgro.png" class="card-img-top cimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Cream Cake</h3>
@@ -226,17 +224,7 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <i><img src="./image/views.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <i><img src="./image/heart.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <i><img src="./image/add.png" alt="" width="30px"></i>
-                            </button>
-                        </div>
+                        
                         <img src="./image/choco1.png" class="card-img-top cimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Choco Cake</h3>
@@ -258,17 +246,6 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">                    
                     <div class="card">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <i><img src="./image/views.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <i><img src="./image/heart.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <i><img src="./image/add.png" alt="" width="30px"></i>
-                            </button>
-                        </div>
                         <img src="./image/dark-f.png" class="card-img-top cimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Dark Chocolate</h3>
@@ -290,17 +267,7 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <i><img src="./image/views.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <i><img src="./image/heart.png" alt="" width="30px"></i>
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <i><img src="./image/add.png" alt="" width="30px"></i>
-                            </button>
-                        </div>
+                        
                         <img src="./image/fruit.png" class="card-img-top cimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Fruit Cake</h3>
@@ -417,22 +384,12 @@
     <!-- Anniversary Cake -->
 
     <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
-        <div class="container">
+        <div class="container" id="anni">
             <h1 class="text-center" style="margin-top: 50px;">Anniversary Cakes</h1>
             <div class="row mt-5">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/anni1.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Photo Cake</h3>
@@ -453,17 +410,7 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/anni2.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Couple Cake</h3>
@@ -485,20 +432,10 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">                   
                      <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/anni3.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
-                            <h3 class="card-title">First Anniversary</h3>
+                            <h3 class="card-title">First Year Cake</h3>
                             <div class="star">
                                 <i class="bx bxs-star checked"></i>
                                 <i class="bx bxs-star checked"></i>
@@ -506,7 +443,7 @@
                                 <i class="bx bxs-star checked"></i>
                                 <i class="bx bxs-star checked"></i>
                             </div>
-                            <p class="card-text">A beautiful cake adorned with roses, featuring layers of vanilla and chocolate, celebrating love's first year.</p>
+                            <p class="card-text">Love’s First Year – A Sweet Symphony of Vanilla, Chocolate, and Roses.</p>
                             <h6 id="btn2" class="d-flex justify-content-between align-items-center">
                                 <span>Rs. 650</span>
                                 <a href="https://wa.me/917013727776?" target="_blank" class="btn btn-primary text-decoration-none">Order Now</a>
@@ -517,20 +454,10 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/anni4.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
-                            <h3 class="card-title">Valentine Heart cake</h3>
+                            <h3 class="card-title">Valentine Heart</h3>
                             <div class="star">
                                 <i class="bx bxs-star checked"></i>
                                 <i class="bx bxs-star checked"></i>
@@ -557,8 +484,8 @@
       <div class="banner d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1500">
         <div class="content text-center text-white">
             <h3 class="fw-bold">Delicious Cake</h3>
-            <h2>UP TO 40% OFF</h2>
-            <p>Indulge in our delicious cakes! Enjoy up to 40% off your favorite flavors today!</p>
+            <h2>UP TO 30% OFF</h2>
+            <p>Indulge in our delicious cakes! Enjoy up to 30% off your favorite flavors today!</p>
             <div id="btnorder">
                 <button class="btn btn-warning">
                     <a href="https://wa.me/917013727776?" target="_blank" class="text-decoration-none">Order Now</a>
@@ -574,22 +501,12 @@
 
 
     <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
-        <div class="container">
+        <div class="container" id="kid">
             <h1 class="text-center" style="margin-top: 50px;">Cakes For Kids</h1>
             <div class="row mt-5">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/kids1.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Panda Cake</h3>
@@ -611,17 +528,7 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/kids2.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">White Cake</h3>
@@ -643,17 +550,7 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/kid3.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Doll Cake</h3>
@@ -675,17 +572,7 @@
     
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3">
                     <div class="card position-relative">
-                        <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick View">
-                                <img src="./image/views.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
-                                <img src="./image/heart.png" alt="" width="30px">
-                            </button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart">
-                                <img src="./image/add.png" alt="" width="30px">
-                            </button>
-                        </div>
+                        
                         <img src="./image/kids5.png" class="card-img-top kimg" alt="">
                         <div class="card-body">
                             <h3 class="card-title">Car Cake</h3>
@@ -800,9 +687,9 @@
                 <br><br> We also specialize in custom photo cakes, allowing you to personalize your celebrations with edible images that capture your cherished moments.
                 Whether you're planning a wedding, anniversary, or any special event, we are equipped to handle bulk orders with ease. 
             </p>
-            <div class="mt-3">
+            <!-- <div class="mt-3">
               <button class="btn btn-primary">Read More...</button>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
